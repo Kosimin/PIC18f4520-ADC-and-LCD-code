@@ -1,11 +1,11 @@
 # PIC18f4520 ADC and LCD code
 I have written bare metal code for both ADC and for LCD in PIC18F4520 and used them to read values from a potentiometer and display the resulting voltage on the LCD display.
-Initially the entire code was inside a single file main.c. After I verified the code worked I splitted the code into c files (main.c, adc.c and lcd.c) and header files (config.h, adc.h and lcd.h). This step made it easy to understand the code.
+Initially the entire code was inside a single file main.c. After I verified the code worked I split the code into c sourece files (main.c, adc.c and lcd.c) and header files (config.h, adc.h and lcd.h). This step made it easy to understand the code.
 
 # Reason for this project : 
-This project started as a learning process for me to get familiar with register level programming using an 8 bit mcu before moving to more professional 32 bit mcu’s.The entire code does not use any external library for both ADC abd LCD
+This project started as a learning process for me to get familiar with register level programming using an 8 bit mcu before moving to more professional 32 bit mcu’s.The entire code does not use any external library for both ADC and LCD.
 
-I started my first learning the GPIO pins and its related registers such as TRIS, PORT and LAT.
+I started by first learning the GPIO pins and its related registers such as TRIS, PORT and LAT.
 Then I learned about the configuration bits and how to set them.
 After getting familiar with the GPIO pins and using TRIS, PORT and LAT registers by doing simple experiments such as blinking a LED I moved on to how to set up a LCD. I have used a potentiometer as the analog input in this project for demo.
 
