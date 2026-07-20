@@ -8,7 +8,8 @@ This project started as a learning process for me to get familiar with register 
 I started my first learning the GPIO pins and its related registers such as TRIS, PORT and LAT.
 Then I learned about the configuration bits and how to set them.
 After getting familiar with the GPIO pins and using TRIS, PORT and LAT registers by doing simple experiments such as blinking a LED I moved on to how to set up a LCD.
-.
+
+I have used a potentiometer as the analog input in this project for demo.
 
 # Learning resources : 
 - PIC Microcontroller and Embedded Systems: Using assembly and C for PIC 18 : 
