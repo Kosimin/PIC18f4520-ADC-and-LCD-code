@@ -29,4 +29,5 @@ This book was really helpful when starting out but watch out this book uses C18 
 - PROTEUS
 
 # Circuit Diagram :
-<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/f1f43628-9e9f-4fd6-a12b-bb8bfb402294" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/31541feb-6eed-460a-b457-cdd2ef841fe3" />
+
