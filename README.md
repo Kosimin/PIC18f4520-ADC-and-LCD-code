@@ -1,7 +1,7 @@
-# PIC18f4520-ADC-and-LCD-code
+# PIC18f4520 ADC and LCD code
 I have written bare metal code for both ADC and for LCD in PIC18F4520 and used them to read values from a potentiometer and display the resulting voltage on the LCD display.
 
-# Reason for this project: 
+# Reason for this project : 
 This project started as a learning process for me to get familiar with register level programming using an 8 bit mcu before moving to more professional 32 bit mcu’s.The entire code does not use any external library for both ADC abd LCD
 
 I started my first learning the GPIO pins and its related registers such as TRIS, PORT and LAT.
@@ -12,7 +12,7 @@ Initially the entire code was inside a single file main.c. After I verified the 
 
 The datasheet is the best resource that helped me complete the project. Everything that is needed to complete any project using the PIC is clearly available in the datasheet.
 
-# Features: 
+# Features : 
 - 10 bit ADC and right justified representation
 - 4 bit LCD control (sending 1st half of data first followed by the second half)
 - real time voltage reading and displaying
